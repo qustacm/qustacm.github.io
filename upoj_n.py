@@ -4,13 +4,13 @@ from bs4 import BeautifulSoup
 import re
 
 # add more id and name
-ids = ["hanxukun"]
-names = ["坤"]
+ids = ["98K1"]
+names = ["恒尉"]
 acs = []
 # nyist.net
 
 my_id = "hanxukun"
-my_name = "辣鸡"
+my_name = "k"
 url = "http://acm.nyist.net/JudgeOnline/profile.php?userid=" + my_id
 wbdata = requests.get(url).text
 soup = BeautifulSoup(wbdata,'lxml')

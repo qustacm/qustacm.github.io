@@ -6,7 +6,7 @@ import re
 
 # add more id and name
 ids = ["98K1","TravelingFish","lvzh","zigx"]
-names = ["恒尉","星宇","zigx"]
+names = ["恒尉","星宇","吕振","zigx"]
 acs = []
 # nyist.net
 

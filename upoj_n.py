@@ -1,11 +1,12 @@
+#coding=utf-8
 import requests
 import os
 from bs4 import BeautifulSoup
 import re
 
 # add more id and name
-ids = ["98K1","TravelingFish","lvzh","zigx"]
-names = ["恒尉","星宇","吕振","zigx"]
+ids = ["98K1","TravelingFish","lvzh"]
+names = ["恒尉","星宇","吕振"]
 acs = []
 # nyist.net
 
@@ -20,7 +21,7 @@ my_ac = str(re.sub("\D", "", m))
 
 
 for id in ids:
-    url = "http://acm.nyist.net/JudgeOnline/profile.php?userid=" + id
+    url = "http://59.69.128.203/JudgeOnline/profile.php?userid=" + id
     wbdata = requests.get(url).text
     soup = BeautifulSoup(wbdata,'lxml')
     x = soup.select("th")

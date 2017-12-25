@@ -11,7 +11,7 @@ acs = []
 
 my_id = "hanxukun"
 my_name = "k"
-url = "http://acm.nyist.net/JudgeOnline/profile.php?userid=" + my_id
+url = "http://59.69.128.203/JudgeOnline/profile.php?userid=" + my_id
 wbdata = requests.get(url).text
 soup = BeautifulSoup(wbdata,'lxml')
 x = soup.select("th")

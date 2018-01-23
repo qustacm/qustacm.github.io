@@ -12,7 +12,7 @@ acs = []
 
 my_id = "hanxukun"
 my_name = "k"
-url = "http://59.69.128.203/JudgeOnline/profile.php?userid=" + my_id
+url = "http://acm.nyist.edu.cn/JudgeOnline/profile.php?userid=" + my_id
 wbdata = requests.get(url).text
 soup = BeautifulSoup(wbdata,'lxml')
 x = soup.select("th")
@@ -21,7 +21,7 @@ my_ac = str(re.sub("\D", "", m))
 
 
 for id in ids:
-    url = "http://59.69.128.203/JudgeOnline/profile.php?userid=" + id
+    url = "http://acm.nyist.edu.cn/JudgeOnline/profile.php?userid=" + id
     wbdata = requests.get(url).text
     soup = BeautifulSoup(wbdata,'lxml')
     x = soup.select("th")

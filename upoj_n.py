@@ -36,7 +36,7 @@ b_text = my_ac
 for ac in acs:
     b_text =b_text + ',' + ac
 
-c_text = ']];var data_max = 100; var line_title = ["nyist题数"]; var y_label = "AC题数"; var x_label = "给大佬们递AC"; var x = ['
+c_text = ']];var data_max = 200; var line_title = ["nyist题数"]; var y_label = "AC题数"; var x_label = "给大佬们递AC"; var x = ['
 
 d_text = '"' + my_name + '"'
 for name in names:

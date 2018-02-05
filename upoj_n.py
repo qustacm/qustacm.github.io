@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 import re
 
 # add more id and name
-ids = ["TravelingFish","zigx","宽哥哥where","white_156","xfy9","Focus5679","Colv1n","messissem","孙大圣","CrazySee","鲸息123","Kz丨Jumper"]
-names = ["星宇","zigx","宽哥","甘霖","zsw","世稳","科宇","靖淞","永乐","诗斌","西钰","荣浩"]
+ids = ["TravelingFish","zigx","宽哥哥where","xfy9","Focus5679","Colv1n"]
+names = ["星宇","zigx","宽哥","zsw","世稳","科宇"]
 acs = []
 # nyist.net
 
